@@ -2,7 +2,7 @@
 
 A complete REST API built with Express.js that demonstrates all common HTTP status codes with practical examples.
 
-## 📋 Features
+## Features
 
 This project demonstrates:
 - **1xx Informational**: Handled automatically by Express
@@ -11,7 +11,7 @@ This project demonstrates:
 - **4xx Client Errors**: 400, 401, 403, 404, 429
 - **5xx Server Errors**: 500, 502, 503, 504
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -182,7 +182,7 @@ curl -X POST \
 curl http://localhost:3000/api/slow/operation
 ```
 
-## 🔍 Testing with Postman
+## Testing with Postman
 
 You can also test these endpoints using Postman:
 
@@ -190,7 +190,7 @@ You can also test these endpoints using Postman:
 2. Set Authorization header: `Bearer valid-token-123`
 3. Test each endpoint listed above
 
-## 📚 Status Code Summary
+## Status Code Summary
 
 | Code | Name | When It Occurs |
 |------|------|----------------|
@@ -210,7 +210,7 @@ You can also test these endpoints using Postman:
 | 503 | Service Unavailable | Server temporarily unavailable |
 | 504 | Gateway Timeout | Upstream server timeout |
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 .
@@ -220,7 +220,7 @@ You can also test these endpoints using Postman:
 └── README.md        # This file
 ```
 
-## 💡 Learning Points
+## Learning Points
 
 1. **2xx codes** indicate success
 2. **4xx codes** indicate client-side errors (you made a mistake)
@@ -230,10 +230,8 @@ You can also test these endpoints using Postman:
 6. Use rate limiting (429) to prevent abuse
 7. Implement proper authentication (401) and authorization (403)
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to extend this project with more examples or improve existing ones!
 
-## 📄 License
 
-ISC
