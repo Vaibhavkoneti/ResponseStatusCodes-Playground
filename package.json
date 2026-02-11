@@ -1,0 +1,16 @@
+{
+  "name": "http-status-codes-demo",
+  "version": "1.0.0",
+  "description": "Practical demonstration of HTTP status codes with Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test-api.js"
+  },
+  "keywords": ["http", "status-codes", "express", "rest-api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
